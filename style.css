@@ -13,7 +13,7 @@ body {
   align-items: center;
   background-color: #1F2937;
   color: white;
-  padding: 0px 50px;
+  padding: 0px 150px;
 }
 
 .header ul {
@@ -36,16 +36,22 @@ body {
   justify-content: space-between;
   background-color: #1F2937;
   color: white;
-  padding: 40px 50px;
+  padding: 40px 150px;
+}
+
+.banner .left-content {
+  margin-right: 50px;
 }
 
 .banner-heading {
+  color: #F9FAF8;
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .banner-subtext {
+  color: #E5E7EB;
   margin-bottom: 10px;
 }
 
@@ -57,4 +63,14 @@ body {
   border: none;
   border-radius: 5px;
   padding: 5px 25px;
+}
+
+.banner .right-image {
+  width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: lightslategrey;
 }
